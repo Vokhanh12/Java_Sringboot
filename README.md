@@ -17,6 +17,15 @@ This is a repository containing documentation about Java Spring Boot.
 </dependencies>
 }
 ```
+<h5>Đối với Gradle, bạn có thể thêm phụ thuộc vào file build.gradle để sử dụng thư viện JDBC và thư viện cơ sở dữ liệu SQL như sau:</h5>
+```xml
+dependencies {
+    // Các phụ thuộc khác
+
+    // MySQL
+    implementation 'mysql:mysql-connector-java'
+}
+```
 
 <h4>Cấu hình thông tin kết nối cơ sở dữ liệu trong file application.properties hoặc application.yml của Spring Boot. Ví dụ, đối với MySQL, bạn có thể thêm các thông tin sau:</h4>
 
